@@ -1,0 +1,40 @@
+/* Slider container */
+.rewind-slider-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Slider track */
+.rewind-slider-container input[type='range'] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #242A2D;
+    outline: none;
+}
+
+.rewind-slider-container input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    background: #2874AE;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.rewind-slider-container input[type='range']::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    background: #2874AE;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* Slider progress */
+.rewind-slider-container .slider-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: #2874AE;
+}

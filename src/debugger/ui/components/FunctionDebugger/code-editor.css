@@ -1,0 +1,52 @@
+/* scrollbar*/
+
+/* width */
+.cm-editor::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+.cm-editor::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+
+::-webkit-scrollbar-corner {
+    /*
+    background-image: url(resources/corner.png);
+    background-repeat: no-repeat;
+    */
+    background-color: #3D3D3D;
+}
+
+/* Handle */
+.cm-editor::-webkit-scrollbar-thumb {
+    background: #4b4b4b;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+.cm-editor::-webkit-scrollbar-thumb:hover {
+    background: #6a6a6a;
+}
+
+/* font size */
+.cm-editor {
+    outline: none;
+}
+
+.cm-editor .linenumber {
+    padding-left: 5px;
+    color: #838383;
+}
+
+.codeViewerHighlightRow {
+    background-color: #ffffff0f;
+    width: 100%;
+    display: block;
+}
+
+.codeViewerHighlightRow .linenumber,
+.codeViewerHighlightRow .react-syntax-highlighter-line-number {
+    color: #fff !important;
+}
